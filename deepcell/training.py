@@ -32,7 +32,7 @@ import numpy as np
 import tensorflow as tf
 
 from tensorflow.keras import backend as K
-from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.optimizers.legacy import SGD
 from tensorflow.keras.losses import MSE
 from tensorflow.python.data import Dataset
 
